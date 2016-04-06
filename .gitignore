@@ -1,19 +1,9 @@
-# Vagrant local setting
-.vagrant/
-# PhpStorm Settings
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
 .idea/
-# Eclipse Settings
-.project
-# Netbeans Settings
-nbproject/
-# default vagrant web directory
-html/
-# puphpet custom config
-puphpet/config-custom.yaml
-# composer vendor files
-sources/vendor/
-# locale phpunit config
-sources/phpunit.xml
-# code-coverage output
-coverage/
 
+vendor
+.vagrant
+html
